@@ -1,0 +1,17 @@
+{
+    "name": "Tiny.AssetLoader",
+    "references": [
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:968008d463443624ba4326838f3e38d2",
+        "GUID:d46f3bb40712a514e85c818715601289"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,17 @@
+{
+  "name": "com.gilcat.assetloader",
+  "displayName": "Tiny Asset Loader",
+  "version": "0.0.1-preview.1",
+  "unity": "2020.1",
+  "unityRelease": "17f1",
+  "description": "Asset loader for Unity Tiny",
+  "keywords": [
+    "entities",
+    "unity",
+    "asset",
+    "loader"
+  ],
+  "dependencies": {
+    "com.unity.tiny": "0.32.0-preview.54"
+  }
+}
