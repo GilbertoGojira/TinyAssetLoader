@@ -89,7 +89,7 @@ namespace Tiny.AssetLoader {
       if (res == 2) {
         thing.Status = AssetStatus.LoadError;
         FreeNative(man, e, ref native);
-        Debug.Log($"Failed to load asset '{man.GetBufferAsString<AssetFilename>(e)}' with error '{statusText}' and handle {native.Handle}");
+        Debug.LogWarning($"Failed to load asset '{man.GetBufferAsString<AssetFilename>(e)}' with error '{statusText}' and handle {native.Handle}");
         return LoadResult.failed;
       }
       thing.Status = AssetStatus.Loaded;
